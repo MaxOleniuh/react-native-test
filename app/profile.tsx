@@ -3,12 +3,12 @@ import { StyleSheet, Text, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import { Link } from "expo-router";
 
-const App = () => {
+const Profile = () => {
   return (
     <View style={styles.container}>
-      <Text>Welcome Page</Text>
-      <Link href="/profile" style={{ color: "green" }}>
-        Go to profile
+      <Text>Profile</Text>
+      <Link href="/" style={{ color: "green" }}>
+        Go back
       </Link>
       <StatusBar style="auto" />
     </View>
@@ -25,4 +25,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default Profile;
