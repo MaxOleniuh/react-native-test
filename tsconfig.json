@@ -2,7 +2,10 @@
   "compilerOptions": {
     "jsx": "react",
     "target": "es5",
-    "lib": ["dom", "esnext"],
+    "lib": [
+      "dom",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -13,7 +16,14 @@
     "moduleResolution": "node",
     "resolveJsonModule": true
   },
-  "include": ["app/**/*", "**/*.tsx", "App.tsx", "**/*.ts"],
-  "exclude": ["node_modules"],
+  "include": [
+    "app/**/*",
+    "**/*.tsx",
+    "**/*.ts",
+    "nativewind-env.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
   "extends": "expo/tsconfig.base"
 }

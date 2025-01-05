@@ -6,7 +6,7 @@ import { Link } from "expo-router";
 const App = () => {
   return (
     <View style={styles.container}>
-      <Text>Welcome Page</Text>
+      <Text className="text-red-800">Welcome Page</Text>
       <Link href="/profile" style={{ color: "green" }}>
         Go to profile
       </Link>
